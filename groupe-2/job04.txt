@@ -1,0 +1,15 @@
+
+
+grep 'POST' logs.txt | grep '192.168.0.2'	=	trouver toutes les lignes contenant "POST" et "192.168.0.2"
+
+grep -v '^[345]' logs.txt			=	n'afficher que les lignes sans code d'erreur ou de redirection
+
+awk '{print $9}' logs.txt			=	n'afficher que le code HTTP du logs
+
+sort logs.txt					=	trier les logs par adresse IP
+
+cut -d' ' -f1 logs.txt | sort | uniq		=	n'afficher que les adresses IP, sans doublons
+
+sed 's/ 200 / OK_YOLO /' logs.txt		=	remplacer tous les codes 200 par OK_YOLO
+
+cut -d' ' -f1 logs.txt | sort | uniq -c		=	compter combien de fois chaque IP a accédé au serveur

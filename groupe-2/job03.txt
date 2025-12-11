@@ -1,0 +1,7 @@
+
+tar -cf job03.tar logs.txt whoami.txt ps.txt	=	créer une archive `job03.tar` contenant les fichiers `logs.txt`, `whoami.txt` et `ps.txt`	
+
+tar -cf job03-inception.tar job03.tar who.txt	=	créer une archive `job03-inception.tar` contenant l'archive précédente et le fichier `who.txt`
+
+tar -xf job03-inception.tar			=	extraier l'archive `job03-inception.tar` dans le répertoire courant
+

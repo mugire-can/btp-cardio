@@ -1,0 +1,8 @@
+
+whoami.txt > whoami.txt		=	créer un fichier `whoami.txt` contenant le résultat de la commande `whoami'
+
+ps  | tail -n +2 > ps.txt	=	créer un fichier `ps.txt` contenant le résultat de la commande `ps`, sans la première ligne
+
+wc -c ps.txt			=	afficher le nombre d'*octets* dans le fichier `ps.txt`
+
+
