@@ -1,5 +1,5 @@
-pwd   = afficher le répertoire courant
+pwd   = afficher le répertoire courant.
 
-cd .. = déplacer au répertoire parent
+cd .. = déplacer au répertoire parent.
 
-cd -  = revenir au répertoire où vous étiez juste avant, sans taper son nom
+cd -  = revenir au répertoire où vous étiez juste avant, sans taper son nom.
