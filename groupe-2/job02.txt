@@ -3,4 +3,4 @@ grep 'tail -f /dev/null' ps.txt         =       afficher la ligne contenant "tai
 
 grep -v 'root' ps.txt                   =       n'afficher que la ligne ne contenant pas "root" du fichier
 
-awk '{print $1}' ps.txt                 =       n'afficher que la première colonne du fichier
+awk '{print $1}' ps.txt                 =       n'afficher que la première colonne du fichier.
