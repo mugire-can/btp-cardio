@@ -17,17 +17,31 @@ btp-cardio/
 │   ├── job01.txt     # File manipulation (echo, cp, cat)
 │   ├── job02.txt     # Advanced redirection & file operations
 │   ├── job03.txt     # Process operations & counting
-│   └── job04.txt     # ...
+│   └── job04.txt     # Stream operations
 ├── groupe-1/          # Level 1 - Intermediate
 │   ├── job00.txt     # File creation & appending
 │   ├── job01.txt     # Output redirection & piping
 │   ├── job02.txt     # File processing & filtering
-│   └── job03.txt     # ...
-└── groupe-2/          # Level 2 - Advanced
-    ├── job01.txt     # System information extraction
-    ├── job02.txt     # Process analysis & counting
-    ├── job03.txt     # ...
-    └── job04.txt     # ...
+│   └── job03.txt     # Text transformation
+├── groupe-2/          # Level 2 - Advanced
+│   ├── job01.txt     # System information extraction
+│   ├── job02.txt     # Process analysis & counting
+│   ├── job03.txt     # Complex filtering & piping
+│   └── job04.txt     # Data processing
+├── groupe-3/          # Level 3 - Stream Operations
+│   ├── job00.txt     # stdout/stderr redirection (>, >>, 2>)
+│   ├── job01.txt     # Filtering with grep, awk, tr
+│   ├── job02.txt     # File search with find command
+│   └── job03.txt     # Advanced text processing with sed/awk
+├── groupe-4/          # Level 4 - File Operations
+│   ├── job00.txt     # File searching with find
+│   ├── job01.txt     # Advanced text transformation
+│   └── job02.txt     # Data filtering & analysis
+└── groupe-5/          # Level 5 - Complete Mastery
+    ├── job00.txt     # Stream redirection mastery
+    ├── job01.txt     # Complex data filtering
+    ├── job02.txt     # Advanced file operations
+    └── job03.txt     # Complete text processing
 ```
 
 ## 🎯 Learning Path
@@ -52,6 +66,27 @@ Develop professional shell skills:
 - Process analysis
 - Complex command piping
 - Text manipulation & analysis
+
+### **Groupe-3: Stream Operations** (Advanced+)
+Master input/output streams:
+- stdout/stderr redirection (`>`, `2>`, `2>&1`)
+- Text filtering with `grep`, `awk`, `tr`
+- File searching with `find`
+- Advanced text processing with `sed`, `awk`
+
+### **Groupe-4: File Operations** (Expert)
+Expert-level file and data operations:
+- Advanced file searching and filtering with `find`
+- Complex text transformations with `sed`, `awk`
+- Data extraction and analysis
+- Conditional file operations
+
+### **Groupe-5: Complete Mastery** (Master)
+Complete mastery of all shell concepts:
+- Advanced stream redirection techniques
+- Complex data filtering and manipulation
+- File system operations
+- Complete text processing workflows
 
 ## 🚀 Getting Started
 
@@ -96,6 +131,25 @@ cat job00.txt  # View the exercise
 - System information extraction
 - Complex filtering and piping
 - Byte/character counting
+
+### Groupe-3 Commands
+- Stream redirection: `>`, `>>`, `2>`, `2>&1`
+- Filtering: `grep`, `sort`, `uniq`, `awk`
+- Text transformation: `tr`
+- File searching: `find`
+- Text substitution: `sed`
+
+### Groupe-4 Commands
+- Advanced file searching: `find -type`, `-name`, `-mmin`, `-exec`
+- Text processing: `sed`, `awk`
+- Data filtering: `grep`, `tr`
+- Column operations: `awk`
+
+### Groupe-5 Commands
+- Complete stream management
+- Complex piping and redirection
+- Advanced filtering and transformation
+- File operations and text processing
 
 ## 💡 Tips for Success
 
