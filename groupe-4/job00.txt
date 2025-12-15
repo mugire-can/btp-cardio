@@ -1,9 +1,0 @@
-#Job 00
-
-find . -type f -name "*md*"     =       trouve tous les fichiers dont le nom contient ".md"
-
-find /app -type f -mmin -120     =       trouve tous les fichiers de /app modifiés il y a moins de 2h
-
-find . -type f -name "*.txt" -exec ls -lh {} \; | awk '{print $5, $9}' | sort -h     =       trouve tous les fichiers .txt puis affiche leur taille triée par ordre croissant
-
-find ./tmp/ -type f -name "*old*" -exec rm -i {} \;     =       supprime tous les fichiers trouvés dans le dossier tmp/ dont le nom contient "old", en demandant une confirmation
