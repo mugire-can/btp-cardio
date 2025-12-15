@@ -1,0 +1,11 @@
+#Job 00
+
+echo "Hello stdout"     =       écrire uniquement dans stdout le texte "Hello stdout"
+
+echo "Hello stderr" >&2     =       écrit uniquement dans stderr le texte "Hello stderr"
+
+echo "Hello stdout" > stdout.txt     =       rediriger stdout dans un fichier stdout.txt
+
+echo "Hello stderr" >&2 2> stderr.txt     =       rediriger stderr dans un fichier stderr.txt
+
+echo "Hello stdout" > both.txt 2>&1     =       rediriger stdout et stderr dans le même fichier both.txt
